@@ -7,33 +7,6 @@
   min-height: 100vh;
 }
 
-.description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
-}
-
-.description a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.description p {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
-}
-
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
@@ -116,6 +89,8 @@
   width: 375px;
   height: 75px;
   padding: 25px 10px;
+  margin-top: -455px;
+  margin-bottom: -355px;
   margin-left: 16px;
   margin-right: 16px;
   transform: translateZ(0);
