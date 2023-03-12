@@ -14,16 +14,20 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main className={styles.main}>
         <div className={styles.center}>
           <div className={styles.thirteen}>
-            <Image
+            <h1 className={inter.className}>
+              XUSTED
+            </h1>
+            {/* <Image
               src="/xusted.png"
               alt="xusted logo"
               width={100}
               height={30}
               priority
-            />
+            /> */}
           </div>
         </div>
 
