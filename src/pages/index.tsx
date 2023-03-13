@@ -2,6 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import { ReactElement } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { faYoutube } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faSpotify, faYoutube } from '@fortawesome/free-brands-svg-icons'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,7 +34,6 @@ export default function Home() {
             /> */}
           </div>
         </div>
-
         <div className={styles.grid}>
           <a
             href="https://listen.tidal.com/album/255879569"
@@ -172,9 +176,21 @@ export default function Home() {
           </a>
         </div>
         <div className={styles.copy}>
-          <p>
-            © Xusted 2023
-          </p>
+          <a href="https://www.youtube.com/channel/UCUJrqOFKzMfDCGenCvLLwdQ">
+            <FontAwesomeIcon
+              icon={faYoutube}
+              style={{ fontSize: 25, color: "red", padding: "10px" }}
+            />
+          </a>
+          <a href="https://open.spotify.com/artist/11lVHxCjt7gVjwwPvPC8mG">
+            <FontAwesomeIcon
+              icon={faSpotify}
+              style={{ fontSize: 25, color: "green", padding: "10px" }}
+            />
+          </a>
+        </div>
+        <div className={styles.copyright}>
+          <p>© Xusted 2023</p>
         </div>
       </main>
     </>
