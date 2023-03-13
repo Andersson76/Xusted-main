@@ -171,6 +171,11 @@ export default function Home() {
             </div>
           </a>
         </div>
+        <div className="copy">
+          <p>
+            © Xusted 2023
+          </p>
+        </div>
       </main>
     </>
   );

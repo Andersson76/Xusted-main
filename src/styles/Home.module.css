@@ -6,7 +6,10 @@
   padding: 6rem;
   min-height: 100vh;
 }
-
+.copy {
+    margin-bottom: 500px;
+    background-color: black;
+  }
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
@@ -158,6 +161,7 @@
   margin-top: -335px;
   margin-bottom: -130px
   }
+
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
