@@ -171,7 +171,7 @@ export default function Home() {
             </div>
           </a>
         </div>
-        <div className="copy">
+        <div className={styles.copy}>
           <p>
             © Xusted 2023
           </p>

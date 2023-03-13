@@ -6,10 +6,8 @@
   padding: 6rem;
   min-height: 100vh;
 }
-.copy {
-    margin-bottom: 500px;
-    background-color: black;
-  }
+
+
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
@@ -156,6 +154,11 @@
 @media (max-width: 700px) {
   .content {
     padding: 4rem;
+  }
+  .copy {
+    font-size: 14px;
+    margin-top: -50px;
+    margin-bottom: -50px;
   }
   .thirteen {
   margin-top: -335px;
