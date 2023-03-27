@@ -4,9 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { ReactElement } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//import { faYoutube } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faSpotify, faYoutube } from '@fortawesome/free-brands-svg-icons'
-
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,20 +19,16 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+
         <div className={styles.center}>
           <div className={styles.thirteen}>
             <h1 className={inter.className}>XUSTED</h1>
             <h4 className={inter.className}>music</h4>
-            {/* <Image
-              src="/xusted.png"
-              alt="xusted logo"
-              width={100}
-              height={30}
-              priority
-            /> */}
           </div>
         </div>
+
         <div className={styles.grid}>
+
           <a
             href="https://listen.tidal.com/album/255879569"
             className={styles.card}
@@ -179,17 +173,17 @@ export default function Home() {
           <a href="https://www.youtube.com/channel/UCUJrqOFKzMfDCGenCvLLwdQ">
             <FontAwesomeIcon
               icon={faYoutube}
-              style={{ fontSize: 25, color: "red", padding: "10px" }}
+              style={{ fontSize: 35, color: "grey", padding: "15px" }}
             />
           </a>
           <a href="https://open.spotify.com/artist/11lVHxCjt7gVjwwPvPC8mG">
             <FontAwesomeIcon
               icon={faSpotify}
-              style={{ fontSize: 25, color: "green", padding: "10px" }}
+              style={{ fontSize: 35, color: "grey", padding: "15px" }}
             />
           </a>
         </div>
-        <div className={styles.copyright}>
+        <div className={inter.className}>
           <p>© Xusted 2023</p>
         </div>
       </main>
