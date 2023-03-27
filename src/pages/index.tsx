@@ -19,7 +19,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
         <div className={styles.center}>
           <div className={styles.thirteen}>
             <h1 className={inter.className}>XUSTED</h1>
@@ -28,7 +27,6 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-
           <a
             href="https://listen.tidal.com/album/255879569"
             className={styles.card}
@@ -38,7 +36,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Maze <span>-&gt;</span>
             </h2>
-            <div className={styles.card}>
+            <div className={styles.container}>
               <Image
                 src="/maze.png"
                 alt="maze"
@@ -58,7 +56,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Busted <span>-&gt;</span>
             </h2>
-            <div className={styles.card}>
+            <div className={styles.container}>
               <Image
                 src="/busted.png"
                 alt="busted"
@@ -78,7 +76,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Receptor <span>-&gt;</span>
             </h2>
-            <div className={styles.card}>
+            <div className={styles.container}>
               <Image
                 src="/receptor.png"
                 alt="receptor"
@@ -98,7 +96,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Tyo Oyt <span>-&gt;</span>
             </h2>
-            <div className={styles.card}>
+            <div className={styles.container}>
               <Image
                 src="/tyooyt.png"
                 alt="tyo oyt"
@@ -118,7 +116,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Awake Slumber <span>-&gt;</span>
             </h2>
-            <div className={styles.card}>
+            <div className={styles.container}>
               <Image
                 src="/AwakeSlumber.png"
                 alt="Awake slumber"
@@ -138,7 +136,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Tunnel Visions <span>-&gt;</span>
             </h2>
-            <div className={styles.card}>
+            <div className={styles.container}>
               <Image
                 src="/TunnelVisions.png"
                 alt="Tunnel visions"
@@ -158,7 +156,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Ice Picker <span>-&gt;</span>
             </h2>
-            <div className={styles.card}>
+            <div className={styles.container}>
               <Image
                 src="/IcePicker.png"
                 alt="Ice Pickert"
