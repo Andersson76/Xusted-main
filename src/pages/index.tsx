@@ -171,19 +171,19 @@ export default function Home() {
           <a href="https://www.youtube.com/channel/UCUJrqOFKzMfDCGenCvLLwdQ">
             <FontAwesomeIcon
               icon={faYoutube}
-              style={{ fontSize: 35, color: "black", padding: "15px" }}
+              style={{ fontSize: 35, color: "black", padding: "14px" }}
             />
           </a>
           <a href="https://open.spotify.com/artist/11lVHxCjt7gVjwwPvPC8mG">
             <FontAwesomeIcon
               icon={faSpotify}
-              style={{ fontSize: 35, color: "black", padding: "15px" }}
+              style={{ fontSize: 35, color: "black", padding: "15px 35px" }}
             />
           </a>
           <a href="https://open.spotify.com/artist/11lVHxCjt7gVjwwPvPC8mG">
             <Image
               src="/tidal.svg"
-              alt="Ice Pickert"
+              alt="tidal logo"
               width={42}
               height={55}
               priority
