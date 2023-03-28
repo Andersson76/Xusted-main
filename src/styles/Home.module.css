@@ -169,8 +169,10 @@
     padding: 4rem;
   }
   .copy {
+    display: flex;
+    align-items: center;
     margin-top: -100px;
-    font-size: 14px;
+    font-size: 10px;
     padding: 5px;
   }
  
