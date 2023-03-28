@@ -180,7 +180,7 @@ export default function Home() {
               style={{ fontSize: 35, color: "black", padding: "15px 35px" }}
             />
           </a>
-          <a href="https://open.spotify.com/artist/11lVHxCjt7gVjwwPvPC8mG">
+          <a href="https://tidal.com">
             <Image
               src="/tidal.svg"
               alt="tidal logo"
