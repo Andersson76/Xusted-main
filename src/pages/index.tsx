@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { ReactElement } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faSpotify, faYoutube, faTidal } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faSpotify, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -182,9 +182,11 @@ export default function Home() {
           </a>
           <a href="https://open.spotify.com/artist/11lVHxCjt7gVjwwPvPC8mG">
             <Image
-            src="/tidal.svg"
-            width={42}
-            height={55}
+              src="/tidal.svg"
+              alt="Ice Pickert"
+              width={42}
+              height={55}
+              priority
             />
           </a>
         </div>
