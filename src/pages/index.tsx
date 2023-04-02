@@ -177,7 +177,7 @@ export default function Home() {
           <a href="https://www.youtube.com/channel/UCUJrqOFKzMfDCGenCvLLwdQ">
             <FontAwesomeIcon
               icon={faYoutube}
-              beatFade
+              beat
               size="2xl"
               style={{
                 paddingLeft: "12px",
@@ -189,7 +189,7 @@ export default function Home() {
           <a href="https://open.spotify.com/artist/11lVHxCjt7gVjwwPvPC8mG">
             <FontAwesomeIcon
               icon={faSpotify}
-              beatFade
+              bounce
               size="2xl"
               style={{
                 paddingLeft: "12px",
@@ -201,7 +201,7 @@ export default function Home() {
           <a href="https://music.apple.com/se/artist/xusted/1491482184">
             <FontAwesomeIcon
               icon={faItunes}
-              beatFade
+              shake
               size="2xl"
               style={{
                 paddingLeft: "12px",
