@@ -4,12 +4,12 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { ReactElement } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { Icon } from "@iconify/react";
 
 import {
   faItunes,
   faSpotify,
-  faYoutube,
+  faYoutube
 } from "@fortawesome/free-brands-svg-icons";
 
 const inter = Inter({ subsets: ['latin'] })
@@ -173,7 +173,7 @@ export default function Home() {
             </div>
           </a>
         </div>
-        <div className={inter.className}>
+        <div className={styles.container}>
           <a href="https://www.youtube.com/channel/UCUJrqOFKzMfDCGenCvLLwdQ">
             <FontAwesomeIcon
               icon={faYoutube}
@@ -207,6 +207,17 @@ export default function Home() {
                 paddingLeft: "12px",
                 paddingRight: "12px",
                 marginBottom: "25px",
+              }}
+            />
+          </a>
+          <a href="https://listen.tidal.com/artist/17716554">
+            <Icon
+              icon="simple-icons:tidal"
+              width="60"
+              style={{
+                paddingLeft: "12px",
+                paddingRight: "12px",
+                marginBottom: "20px",
               }}
             />
           </a>
