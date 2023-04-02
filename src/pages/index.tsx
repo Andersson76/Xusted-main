@@ -4,7 +4,13 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { ReactElement } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faSpotify, faYoutube } from '@fortawesome/free-brands-svg-icons'
+
+
+import {
+  faItunes,
+  faSpotify,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -114,7 +120,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Awake Slumber <span>-&gt;</span>
+              Awake Slumber<span>-&gt;</span>
             </h2>
             <div className={styles.container}>
               <Image
@@ -167,26 +173,41 @@ export default function Home() {
             </div>
           </a>
         </div>
-        <div className={styles.copy}>
+        <div className={inter.className}>
           <a href="https://www.youtube.com/channel/UCUJrqOFKzMfDCGenCvLLwdQ">
             <FontAwesomeIcon
               icon={faYoutube}
-              style={{ fontSize: 35, color: "black", padding: "14px" }}
+              beatFade
+              size="2xl"
+              style={{
+                paddingLeft: "12px",
+                paddingRight: "12px",
+                marginBottom: "25px",
+              }}
             />
           </a>
           <a href="https://open.spotify.com/artist/11lVHxCjt7gVjwwPvPC8mG">
             <FontAwesomeIcon
               icon={faSpotify}
-              style={{ fontSize: 35, color: "black", padding: "15px 35px" }}
+              beatFade
+              size="2xl"
+              style={{
+                paddingLeft: "12px",
+                paddingRight: "12px",
+                marginBottom: "25px",
+              }}
             />
           </a>
-          <a href="https://tidal.com">
-            <Image
-              src="/tidal.svg"
-              alt="tidal logo"
-              width={42}
-              height={55}
-              priority
+          <a href="https://music.apple.com/se/artist/xusted/1491482184">
+            <FontAwesomeIcon
+              icon={faItunes}
+              beatFade
+              size="2xl"
+              style={{
+                paddingLeft: "12px",
+                paddingRight: "12px",
+                marginBottom: "25px",
+              }}
             />
           </a>
         </div>
