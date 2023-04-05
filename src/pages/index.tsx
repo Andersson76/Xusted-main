@@ -219,7 +219,7 @@ export default function Home() {
               style={{
                 paddingLeft: "12px",
                 paddingRight: "12px",
-                marginBottom: "20px",
+                marginBottom: "23px",
               }}
             />
           </a>
