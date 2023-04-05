@@ -191,7 +191,7 @@ export default function Home() {
           <a href="https://open.spotify.com/artist/11lVHxCjt7gVjwwPvPC8mG">
             <FontAwesomeIcon
               icon={faSpotify}
-              flip
+              bounce
               size="2xl"
               style={{
                 paddingLeft: "12px",
