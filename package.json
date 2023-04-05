@@ -26,6 +26,7 @@
     "typescript": "4.9.5"
   },
   "devDependencies": {
+    "@iconify/icons-simple-icons": "^1.2.47",
     "@iconify/react": "^4.1.0"
   }
 }
