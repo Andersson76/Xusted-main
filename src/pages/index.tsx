@@ -5,6 +5,8 @@ import styles from '@/styles/Home.module.css'
 import { ReactElement } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Icon } from "@iconify/react";
+import tidalIcon from "@iconify/icons-simple-icons/tidal";
+
 
 import {
   faItunes,
@@ -189,7 +191,7 @@ export default function Home() {
           <a href="https://open.spotify.com/artist/11lVHxCjt7gVjwwPvPC8mG">
             <FontAwesomeIcon
               icon={faSpotify}
-              bounce
+              flip
               size="2xl"
               style={{
                 paddingLeft: "12px",
@@ -212,7 +214,7 @@ export default function Home() {
           </a>
           <a href="https://listen.tidal.com/artist/17716554">
             <Icon
-              icon="simple-icons:tidal"
+              icon={tidalIcon}
               width="60"
               style={{
                 paddingLeft: "12px",
