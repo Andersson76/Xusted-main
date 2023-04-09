@@ -6,7 +6,10 @@ import { ReactElement } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Icon } from "@iconify/react";
 import tidalIcon from "@iconify/icons-simple-icons/tidal";
-
+import { motion } from "framer-motion";
+import React from "react";
+import ReactDOM from "react-dom";
+import { SocialIcon } from "react-social-icons";
 
 import {
   faItunes,
@@ -224,7 +227,31 @@ export default function Home() {
             />
           </a>
         </div>
+        <motion.div
+          initial={{
+            x: 500,
+            opacity: 0,
+            scale: 0.2,
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+            scale: 1.5,
+          }}
+          transition={{
+            duration: 4,
+          }}
+          className="flex flex-row items-center text-gray-300 cursor-pointer"
+        >
+          <SocialIcon
+            className="cursor-pointer"
+            network="email"
+            fgColor="black"
+            bgColor="transparent"
+          />
+        </motion.div>
         <div className={inter.className}>
+          <br/>
           <p>© Xusted 2023</p>
         </div>
       </main>
